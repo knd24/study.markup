@@ -1,0 +1,105 @@
+header{
+  display: inline-block;
+  margin-top: 50px;
+  width: 960px;
+}
+
+.title{
+  margin-left: auto;
+  float: left;
+  padding-right: 75px;
+}
+
+.main-title{
+  font-size: 35px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.sub-title{
+  font-size: 15px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #808080;
+
+}
+
+.navbar {
+  margin-top: 0px;
+  /* padding-inline-start: none; */
+  width: 800px;
+  float: right;
+}
+
+body{
+  text-align: center;
+}
+
+div#wrapper{
+  width: 960px;
+  margin: auto;
+  text-align: left;
+}
+
+ul{
+  font-size: 10px;
+  width: 600px;
+  padding-left:40px;
+
+}
+
+.nav li{
+  display: inline-block;
+  width: 130px;
+  height: 10px;
+  text-align: center;
+  font-size: 13px;
+}
+
+.search-area{
+  display: inline-block;
+  width          : 250px;              /* BOXの幅               */
+  height         : 30px;               /* BOXの高さ             */
+  letter-spacing : 0.1em;              /* 文字間隔              */
+  font-weight    : bold;               /* 太字                  */
+  line-height    : 0;                  /* 標準の行高さ          */
+  margin: right;
+}
+
+.search-text{
+  display        : block;              /* ブロック化            */
+  margin: right;
+  box-sizing     : border-box;         /* 枠線,余白を含んだ長さ */
+  height         : 30px;               /* 入力の高さ            */
+  width          : 30px;               /* 入力の幅              */
+  margin         : 0;                  /* 外余白                */
+  padding        : 0 15px;             /* 内余白                */
+  border         : 2px solid #007fff;  /* 枠線　幅,実践,色      */
+  border-radius  : 15px 0 0 15px;      /* 左上下の角丸          */
+  color          : #333;               /* 文字色                */
+  font-size      : 18px;               /* フォントサイズ        */
+  outline        : 0;                  /* 入力の薄い枠を非表示  */
+  transition     : .3s;                /* 滑らかな動き          */
+}
+
+.content-area {
+  display: inline-block;
+  text-align: center;
+}
+
+.articl-date {
+  width: 200px;
+  margin-right: 20px;
+  float: left;
+  box-sizing : border-box;
+}
+
+.post-card {
+  width: 500px;
+  float: right;
+}
+
+h2{
+  text-align: left;
+}
